@@ -7,6 +7,7 @@ module.exports = {
       'dark-purple': '#24053E',
       'eucaplyptus': '#44FFA1',
       'white': '#FFFFFF',
+      'black': '#00000'
     }
   },
   plugins: [],

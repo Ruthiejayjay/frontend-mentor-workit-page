@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  <LandingPage />
+    <LandingPage />
   </div>
 </template>
 
@@ -16,8 +16,10 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,200;0,300;1,300;1,600&family=Manrope:wght@200;300;600&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Fraunces, Manrope, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
