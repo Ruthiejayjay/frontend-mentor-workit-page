@@ -1,7 +1,11 @@
 <template>
-  <div>
+  <div class="relative">
     <Nav />
     <Header />
+    <div class="absolute">
+      <img src="./../assets/images/image-hero.webp" alt="">
+    </div>
+    
   </div>
 </template>
 
