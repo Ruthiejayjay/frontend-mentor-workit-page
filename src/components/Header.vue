@@ -1,7 +1,7 @@
 <template>
-    <div class="relative w-full h-96">
-        <img class="w-full" src="./..\assets\images\bg.svg" alt="">
-        <div class="absolute inset-36 flex justify-between">
+    <div class="relative w-full h-96 bg-dark-purple">
+        <!-- <img class="w-full h-full" src="./..\assets\images\bg.svg" alt=""> -->
+        <div class="absolute inset-28 flex justify-between">
             <div class="">
                 <img class="h-48 w-48" src="./..\assets\images\bg-pattern-1.svg" alt="">
             </div>
@@ -14,6 +14,7 @@
 
                 <button class="
             mt-4 
+            mb-8
             bg-eucaplyptus 
             text-black 
             border
