@@ -6,6 +6,7 @@
       <img src="./../assets/images/image-hero.webp" alt="" style="width: 50%;">
     </div> -->
     <Section />
+    <Author />
   </div>
 </template>
 
