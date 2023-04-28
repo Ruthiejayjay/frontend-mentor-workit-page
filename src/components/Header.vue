@@ -1,11 +1,9 @@
 <template>
-    <div class="relative w-full h-96 bg-dark-purple">
-        <!-- <img class="w-full h-full" src="./..\assets\images\bg.svg" alt=""> -->
-        <div class="absolute inset-28 flex justify-between">
+    <section class="relative w-full flex justify-center items-center overflow-hidden">
+        <div class="relative z-10 mx-auto max-w-4xl text-center flex justify-center">
             <div class="">
                 <img class="h-48 w-48" src="./..\assets\images\bg-pattern-1.svg" alt="">
             </div>
-            
             <div class="w-96">
                 <h1 class="text-white font-bold text-5xl pt-6 heading">Data <span
                         class="underline decoration-eucaplyptus">tailored</span>
@@ -13,23 +11,29 @@
                     your needs.</h1>
                     <Button class="my-6" title="Learn More" />
             
-            </div>
+            </div> 
             <img class="h-24 w-24" src="./..\assets\images\bg-pattern-2.svg" alt="">
         </div>
-    </div>
+    </section>
 </template>
 
-<script>
+<script setup>
 import Button from './Button.vue';
-export default{
-    components: {
-        Button
-    }
-}
 </script>
 
 <style scoped>
-.heading {
-    padding-inline: 26px;
+section{
+    height: 80vh;
+}
+section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #24053E;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(1.5);
 }
 </style>

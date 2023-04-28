@@ -2,7 +2,7 @@
   <div class="relative">
     <Nav />
     <Header/>
-    <!-- <div class="absolute -mt-16 flex justify-center" style="width: 100%; z-index: 9999;">
+    <!-- <div class="absolute flex justify-center -mt-36" style="width: 100%; z-index: 9999;">
       <img src="./../assets/images/image-hero.webp" alt="" style="width: 50%;">
     </div> -->
     <Section />

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-56 mt-32 mb-12 bg-white ">
+  <div class="bg-white ">
     <div class="flex flex-row gap-1">
       <div class="w-52 h-52 rounded-full bg-eucaplyptus">
         <img src="./..\assets\images\image-founder.webp" alt="">

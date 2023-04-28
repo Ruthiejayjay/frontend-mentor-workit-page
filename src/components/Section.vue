@@ -1,7 +1,6 @@
 <template>
-    <section class="relative w-full h-96 bg-ghost-white">
-        <!-- <img class="w-full" src="./..\assets\images\sect-bg.svg" alt=""> -->
-        <div class="flex flex-row gap-8 justify-center">
+    <section class="relative w-full overflow-hidden">
+        <div class="relative z-10 mx-auto my-32 flex gap-8 justify-center">
             <div class="mt-24">
                 <div class="flex flex-col w-52 items-center text-dark-purple">
                     <div class="flex justify-center items-center w-8 h-8 bg-white border border-davy-grey rounded-full text-center">
@@ -45,3 +44,21 @@
         </div>
     </section>
 </template>
+
+<style scoped>
+section{
+    height: 80vh;
+}
+
+section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FCF8FF;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+</style>
