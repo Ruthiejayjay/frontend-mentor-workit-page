@@ -7,6 +7,7 @@
     </div>
     <Section />
     <Author />
+    <Footer />
   </div>
 </template>
 
@@ -15,13 +16,15 @@ import Nav from './Nav.vue';
 import Header from './Header.vue';
 import Section from './Section.vue';
 import Author from './Author.vue'
+import Footer from './Footer.vue'
 
 export default {
   components: {
     Nav,
     Header,
     Section,
-    Author
+    Author,
+    Footer
   }
 }
 </script>
