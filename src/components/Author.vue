@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-white ">
-    <div class="flex flex-row gap-1">
+  <div class="relative bg-white h-96 ">
+    <div class="flex flex-row justify-center mt-20">
       <div class="w-52 h-52 rounded-full bg-eucaplyptus">
         <img src="./..\assets\images\image-founder.webp" alt="">
       </div>
-      <div class="w-96 h-56 bg-dark-purple">
+      <div class="w-96 h-56 -ml-12 mt-24 bg-dark-purple">
         <div class="mx-12 mt-12 text-left">
           <h2 class="font-semibold text-xl text-white">Be the first to test</h2>
           <p class="my-3 text-white text-xs">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to

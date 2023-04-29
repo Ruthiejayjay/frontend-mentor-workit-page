@@ -9,7 +9,7 @@
                         class="underline decoration-eucaplyptus">tailored</span>
                     to
                     your needs.</h1>
-                    <Button class="my-6" title="Learn More" />
+                    <Button class="mt-6 mb-12" title="Learn More" />
             
             </div> 
             <img class="h-24 w-24" src="./..\assets\images\bg-pattern-2.svg" alt="">
