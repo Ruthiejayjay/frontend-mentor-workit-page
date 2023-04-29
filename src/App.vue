@@ -25,6 +25,6 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #FCF8FF;
+  /* background-color: #FCF8FF; */
 }
 </style>
