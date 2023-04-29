@@ -1,6 +1,6 @@
 <template>
     <section class="relative -mt-32 w-full overflow-hidden">
-        <div class="relative z-10 mx-auto mb-20 mt-52 flex gap-8 justify-center">
+        <div class="relative z-10 mx-auto  mt-52 flex gap-8 justify-center">
             <div class="mt-24">
                 <div class="flex flex-col w-52 items-center text-dark-purple">
                     <div class="flex justify-center items-center w-8 h-8 bg-white border border-davy-grey rounded-full text-center">
@@ -47,7 +47,7 @@
 
 <style scoped>
 section{
-    height: 80vh;
+    height: 100vh;
 }
 
 section:before{
