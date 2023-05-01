@@ -5,13 +5,13 @@
                 <img class="h-48 w-48" src="./..\assets\images\bg-pattern-1.svg" alt="">
             </div>
             <div class="w-96">
-                <h1 class="text-white font-bold text-5xl pt-6 heading">Data <span
+                <h1 class="text-white font-extrabold text-5xl pt-6 heading">Data <span
                         class="underline decoration-eucaplyptus">tailored</span>
                     to
                     your needs.</h1>
-                    <Button class="mt-6 mb-12" title="Learn More" />
-            
-            </div> 
+                <Button class="mt-6 mb-12 button" title="Learn More" />
+
+            </div>
             <img class="h-24 w-24" src="./..\assets\images\bg-pattern-2.svg" alt="">
         </div>
     </section>
@@ -22,9 +22,10 @@ import Button from './Button.vue';
 </script>
 
 <style scoped>
-section{
+section {
     height: 80vh;
 }
+
 section:before {
     content: '';
     position: absolute;
@@ -34,6 +35,29 @@ section:before {
     height: 100%;
     background-color: #24053E;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
-    transform: scaleX(1.5);
+    transform: scaleX(2);
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    section {
+        height: 50vh;
+    }
+
+    section:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #24053E;
+        border-radius: 0 0 50% 50% / 0 0 100% 100%;
+        transform: scaleX(4);
+    }
+
+    .heading {
+        font-size: 40px;
+    }
 }
 </style>
