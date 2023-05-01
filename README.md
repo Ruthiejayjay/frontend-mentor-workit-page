@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](src\assets\images\desktop_view.png)
-![](src\assets\images\mobile_view.png)
-![](src\assets\images\tablet_view.png)
+![desktop view](https://github.com/Ruthiejayjay/frontend-mentor-workit-page/blob/main/src/assets/images/desktop_view.png)
+![mobile view](https://github.com/Ruthiejayjay/frontend-mentor-workit-page/blob/main/src/assets/images/mobile_view.png)
+![tablet view](https://github.com/Ruthiejayjay/frontend-mentor-workit-page/blob/main/src/assets/images/tablet_view.png)
 
 ### Links
 
