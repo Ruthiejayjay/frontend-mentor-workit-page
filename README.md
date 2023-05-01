@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repo](https://github.com/Ruthiejayjay/frontend-mentor-workit-page)
-- Live Site URL: [live-link](https://your-live-site-url.com)
+- Live Site URL: [live-link](https://ruthiejay-workit-landing.netlify.app/)
 
 ## My process
 
