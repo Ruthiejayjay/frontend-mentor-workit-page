@@ -35,25 +35,13 @@ section:before {
     height: 100%;
     background-color: #24053E;
     border-radius: 0 0 50% 50% / 0 0 100% 100%;
-    transform: scaleX(1.8);
+    transform: scaleX(2);
 }
 
+/* mobile */
 @media only screen and (max-width: 480px) {
     section {
         height: 50vh;
-    }
-    .heading {
-        font-size: 20pt;
-    }
-
-    .button{
-        margin-bottom: 0;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    section {
-        height: 70vh;
     }
 
     section:before {
@@ -65,16 +53,11 @@ section:before {
         height: 100%;
         background-color: #24053E;
         border-radius: 0 0 50% 50% / 0 0 100% 100%;
-        transform: scaleX(3);
+        transform: scaleX(4);
     }
 
     .heading {
-        font-family: Fraunces;
-        font-size: 40pt;
-    }
-
-    .button{
-        margin-bottom: 0;
+        font-size: 40px;
     }
 }
 </style>
