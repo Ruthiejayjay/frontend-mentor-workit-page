@@ -60,4 +60,23 @@ section:before {
         font-size: 40px;
     }
 }
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    section {
+        height: 50vh;
+    }
+
+    section:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #24053E;
+        border-radius: 0 0 50% 50% / 0 0 100% 100%;
+        transform: scaleX(4);
+    }
+}
 </style>

@@ -45,4 +45,11 @@ import Button from './Button.vue';
     margin-top: 20px;
   }
 }
+
+/* tab */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .author-details {
+    margin-left: -70px;
+  }
+}
 </style>
